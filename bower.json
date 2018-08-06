@@ -1,0 +1,16 @@
+{
+  "name": "mercycorps_d_8",
+  "description": "",
+  "main": "",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "generator-web-starter": {
+    "name": "mercycorps-d8",
+    "repository": "",
+    "ruby_version": "2.3.0",
+    "plugins": [
+      "web-starter-drupal8:web-starter",
+      "web-starter-gesso:web-starter",
+      "web-starter-capistrano:web-starter",
+      "web-starter-grunt:web-starter",
+      "web-starter-salt:web-starter"
+    ]
+  },
+  "generator-web-starter-drupal8": {
+    "drupal_version": "8.6.0-beta2",
+    "features": false,
+    "drupal_theme": "gesso",
+    "install_drupal": false
+  },
+  "generator-web-starter-gesso": {
+    "install_gesso": false
+  },
+  "generator-web-starter-capistrano": {
+    "deploy_via": "rsync",
+    "keep_releases": 3
+  },
+  "generator-web-starter-salt": {
+    "doc_root": "web",
+    "webserver": "apache",
+    "search": [
+      "solr4"
+    ],
+    "php_base": "php71u",
+    "mysql_base": "mysql56u",
+    "mysql_password": "web"
+  }
+}
